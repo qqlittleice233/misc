@@ -1,5 +1,12 @@
 package art.qqlittleice.misc.encoding;
 
+/**
+ * A Modified XOR encryption/decryption algorithm.
+ * This algorithm will encrypt/decrypt the data bytearray using the key bytearray.
+ * It will use the odd index to XOR with the previous byte, and the even index to XOR with the key.
+ *
+ * @author QQlittleice233
+ */
 public class MagicXor {
 
     byte[] mKey;
